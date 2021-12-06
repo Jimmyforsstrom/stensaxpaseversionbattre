@@ -28,10 +28,10 @@ public class Highscore {
     }
 
     public void ranking(List<Person> raan) {
-        System.out.println(raan.get(0).getName() + ". " +  raan.get(0).getScore());
-        System.out.println(raan.get(1).getName() + ". " +  raan.get(1).getScore());
-        System.out.println(raan.get(2).getName() + ". " +  raan.get(2).getScore());
-        System.out.println(raan.get(3).getName() + ". " +  raan.get(3).getScore());
+        System.out.println(raan.get(0).getName() + " med följande placeringar " +  raan.get(0).getScore());
+        System.out.println(raan.get(1).getName() + " med följande placeringar " +  raan.get(1).getScore());
+        System.out.println(raan.get(2).getName() + " med följande placeringar " +  raan.get(2).getScore());
+        System.out.println(raan.get(3).getName() + " med följande placeringar " +  raan.get(3).getScore());
 
     }
 
